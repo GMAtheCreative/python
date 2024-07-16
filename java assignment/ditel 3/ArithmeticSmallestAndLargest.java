@@ -13,9 +13,7 @@ public class ArithmeticSmallestAndLargest{
 			System.out.println("Enter number: ");
 			int number = collect.nextInt();
 	
-			product *= number;
 
-			sum += number;
 
 			if(smallest == 0 || number < smallest){
 	
@@ -27,9 +25,9 @@ public class ArithmeticSmallestAndLargest{
 			}
 		}
 
-		average = sum / 2;
+	
 
-		System.out.printf("The sum is %d\nThe average is %d\nThe product of all the numbers is %d\nThe smallest is, %d\nThe largest is %d", sum, average, product, smallest, largest );
+		System.out.printf("The smallest is, %d\nThe largest is %d", smallest, largest );
 
 	
 	}
